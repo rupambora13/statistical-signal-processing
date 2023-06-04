@@ -1,4 +1,7 @@
 %% Lab 1: Remove High-Frequency Noise in Measured Data
+clear
+close all
+clc
 
 % Read Data
 [humidity,time] = thingSpeakRead(12397,'NumPoints',8000,'Fields',3);

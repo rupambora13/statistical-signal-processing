@@ -1,4 +1,7 @@
 %% Lab 2: Spectral Estimation Method
+clear
+close all
+clc
 
 % Consider 1001 element signal xn, which consists of two sinusoids plus
 % noise
